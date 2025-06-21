@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Moonlight Umbrella Surgery</title>
+    <style>
+        body {
+            background: linear-gradient(135deg, #191970, #000000);
+            font-family: 'Times New Roman', serif;
+            color: #E6E6FA;
+            padding: 20px;
+            margin: 0;
+            position: relative;
+        }
+        
+        .rain-drop {
+            position: absolute;
+            color: #4682B4;
+            font-size: 20px;
+            animation: fall 2s linear infinite;
+        }
+        
+        @keyframes fall {
+            0% {
+                top: -20px;
+                opacity: 1;
+            }
+            100% {
+                top: 100vh;
+                opacity: 0;
+            }
+        }
+        
+        h1 {
+            text-align: center;
+            background: rgba(25, 25, 112, 0.8);
+            padding: 25px;
+            border: 3px solid #C0C0C0;
+            border-radius: 20px;
+            font-size: 2.8em;
+            color: #F0F8FF;
+            text-shadow: 2px 2px 4px #000000;
+        }
+        
+        .service {
+            background: rgba(72, 61, 139, 0.7);
+            padding: 20px;
+            margin: 20px 0;
+            border-left: 6px solid #FF6347;
+            border-radius: 8px;
+        }
+        
+        .umbrella-icon {
+            font-size: 50px;
+            float: left;
+            margin-right: 20px;
+            animation: sway 2s ease-in-out infinite;
+        }
+        
+        @keyframes sway {
+            0%,
+            100% {
+                transform: rotate(-10deg);
+            }
+            50% {
+                transform: rotate(10deg);
+            }
+        }
+        
+        .urgency {
+            background: #DC143C;
+            color: white;
+            padding: 5px 10px;
+            border-radius: 12px;
+            font-size: 12px;
+            float: right;
+        }
+        
+        .price {
+            color: #90EE90;
+            font-weight: bold;
+            font-size: 18px;
+            margin-top: 10px;
+        }
+        
+        .doctor-profile {
+            background: rgba(47, 79, 79, 0.8);
+            padding: 20px;
+            border-radius: 15px;
+            text-align: center;
+            margin: 25px 0;
+            border: 2px solid #708090;
+        }
+        
+        .hours {
+            background: #2F4F4F;
+            color: #F5F5DC;
+            padding: 15px;
+            text-align: center;
+            border-radius: 10px;
+            border: 2px dashed #C0C0C0;
+        }
+        
+        .testimonial {
+            background: rgba(105, 105, 105, 0.6);
+            padding: 15px;
+            margin: 15px 0;
+            border-radius: 10px;
+            font-style: italic;
+            border-left: 3px solid #FFD700;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="rain-drop" style="left: 10%; animation-delay: 0s;"></div>
+    <div class="rain-drop" style="left: 30%; animation-delay: 0.5s;"></div>
+    <div class="rain-drop" style="left: 60%; animation-delay: 1s;"></div>
+    <div class="rain-drop" style="left: 80%; animation-delay: 1.5s;"></div>
+
+    <h1> MOONLIGHT UMBRELLA SURGERY </h1>
+
+    <div class="doctor-profile">
+        <strong>Dr. Raindrop Wellington, PhD in Umbrella Medicine</strong><br>
+        <em>"Healing broken umbrellas under the cover of darkness since 1987"</em> <br> Certified by the International Association of Parasol Practitioners
+    </div>
+    <img src="https://th.bing.com/th/id/R.70f20e4d25857cc40dce153ed84a5e5b?rik=A2OH%2bK8adCXynA&pid=ImgRaw&r=0" alt="">
+    <div class="service">
+        <div class="urgency">EMERGENCY</div>
+        <div class="umbrella-icon"></div>
+        <h3>Broken Rib Reconstruction</h3>
+        <p>For umbrellas that have suffered catastrophic wind damage. Includes full structural realignment and trauma counseling.</p>
+        <div class="price"> $45 (rush job: +$15)</div>
+    </div>
+
+    <div class="service">
+        <div class="urgency">ROUTINE</div>
+        <div class="umbrella-icon"></div>
+        <h3>Handle Reattachment Surgery</h3>
+        <p>Delicate procedure for umbrellas suffering from separation anxiety. We reunite handles with their canopies.</p>
+        <div class="price"> $25 (includes grief counseling)</div>
+    </div>
+
+    <div class="service">
+        <div class="urgency">COSMETIC</div>
+        <div class="umbrella-icon"></div>
+        <h3>Fabric Transplantation</h3>
+        <p>For umbrellas with tears, holes, or fashion-related self-esteem issues. We source only the finest waterproof materials.</p>
+        <div class="price"> $35 (designer fabrics +$20)</div>
+    </div>
+
+    <div class="testimonial">
+        "My umbrella was on life support after a tornado encounter. Dr. Wellington worked all night and saved her! She's better than ever!" - Grateful in Gotham
+    </div>
+
+    <div class="hours">
+        <strong>OPERATING HOURS:</strong><br> Midnight to 6 AM (We work when it's darkest) <br> Emergency calls: 1-800-DRIP-SOS<br><br>
+        <em>Walk-ins welcome, but bring a flashlight</em>
+    </div>
+</body>
+
+</html>
